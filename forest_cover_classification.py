@@ -1,21 +1,5 @@
 
 """
-
-import numpy as np
-import pandas as pd
-from sklearn.preprocessing import StandardScaler, MinMaxScaler
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import confusion_matrix, classification_report
-from keras.models import Sequential
-from keras.layers import Dense, Dropout
-from keras.utils import np_utils
-from sklearn.naive_bayes import MultinomialNB
-from sklearn.neighbors import KNeighborsClassifier
-from tabulate import tabulate
-import time
-
-"""
     This script contains basic implementations of several supervised 
     learning classification algorithms (random forests, naive Bayes, 
     K nearest neighbours (KNN), and a convolutional neural network). 
@@ -33,6 +17,19 @@ import time
     
 """
 
+import numpy as np
+import pandas as pd
+from sklearn.preprocessing import StandardScaler, MinMaxScaler
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import confusion_matrix, classification_report
+from keras.models import Sequential
+from keras.layers import Dense, Dropout
+from keras.utils import np_utils
+from sklearn.naive_bayes import MultinomialNB
+from sklearn.neighbors import KNeighborsClassifier
+from tabulate import tabulate
+import time
 
 
 # First load the data:
