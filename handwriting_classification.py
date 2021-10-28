@@ -1,16 +1,3 @@
-import numpy as np
-from sklearn import datasets
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import confusion_matrix, classification_report
-from keras.models import Sequential
-from keras.layers import Dense, Dropout, Flatten
-from keras.layers.convolutional import Conv2D, MaxPooling2D
-from keras.utils import np_utils
-from sklearn.naive_bayes import MultinomialNB
-from sklearn.neighbors import KNeighborsClassifier
-from tabulate import tabulate
-import time
 
 """
     This script contains basic implementations of several supervised 
@@ -35,6 +22,21 @@ import time
     approaches (e.g., use a train, test, validate approach for all methods). 
     
 """
+
+import numpy as np
+from sklearn import datasets
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import confusion_matrix, classification_report
+from keras.models import Sequential
+from keras.layers import Dense, Dropout, Flatten
+from keras.layers.convolutional import Conv2D, MaxPooling2D
+from keras.utils import np_utils
+from sklearn.naive_bayes import MultinomialNB
+from sklearn.neighbors import KNeighborsClassifier
+from tabulate import tabulate
+import time
+
 
 
 
